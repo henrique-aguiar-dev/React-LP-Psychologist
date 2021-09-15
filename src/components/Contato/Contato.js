@@ -1,8 +1,27 @@
 import React from 'react';
 
+import Mask from '../../modules/phonemask';
+
 import './Contato.css';
 
 const Contato = () => {
+
+	const loadMask = (input) => {
+		const phoneMask = new Mask(input);
+		phoneMask.mask();
+	}
+
+	const handleFocus = (event) => {
+		const inputPhone = event.target;
+
+		loadMask(inputPhone)
+		
+		inputPhone.placeholder = '(__)____-____';
+		inputPhone.addEventListener('focusout', e => inputPhone.placeholder = 'Telefone p/ contato...');
+		inputPhone.addEventListener('paste', e => e.preventDefault());
+	}
+
+
 	return (
 		<section className="contato">
 			<h1>Agende sua consulta</h1>
@@ -22,9 +41,27 @@ const Contato = () => {
 					<div className="contato">
 						<h2>Envie uma mensagem...</h2>
 						<form id="agend" method="POST" action="">
-							<input className="form nome" type="text" name="nome" placeholder="Seu nome..." required />
-							<input className="form email" type="email" name="email" placeholder="Seu e-mail..." required />
-							<input className="form tel" id="fone" type="tel" maxlength="14" minlength="13" name="telefone" placeholder="Telefone p/ contato..." />
+							<input
+								className="form nome"
+								type="text"
+								name="nome"
+								placeholder="Seu nome..."
+								required />
+							<input
+								className="form email"
+								type="email"
+								name="email"
+								placeholder="Seu e-mail..."
+								required />
+							<input
+								className="form tel"
+								id="fone"
+								type="tel"
+								maxLength="14"
+								minLength="13"
+								name="telefone"
+								placeholder="Telefone p/ contato..."
+								onFocus={handleFocus} />
 							<textarea className="form msg" name="mensagem" placeholder="Sua mensagem..." required ></textarea>
 							<div className="alert-submit">
 								<p id="msg-sended">Mensagem enviada com sucesso! Responderemos em breve.</p>
