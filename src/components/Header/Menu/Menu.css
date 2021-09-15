@@ -1,0 +1,83 @@
+.menu-desktop {
+  width: 100%;
+  text-align: right;
+}
+
+.menu-desktop ul li {
+  display: inline-flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu-desktop ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 8px;
+  transition: 0.3s;
+}
+
+.menu-desktop ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.menu-mobile {
+  display: none;
+  width: 80%;
+  position: absolute;
+  right: 10vw;
+  top: 70px;
+  background: linear-gradient(
+    90deg,
+    rgb(137, 143, 201) 30%,
+    rgb(75, 80, 156) 70%
+  );
+  text-align: center;
+  border: 2px solid rgba(6, 27, 121, 0.3);
+}
+
+.menu-mobile ul li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.menu-mobile ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.menu-mobile ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.icon-menu-mob {
+  width: 40px;
+  height: 40px;
+  display: none;
+  margin: 15px;
+}
+
+.icon-menu-mob > i {
+  font-size: 38px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 925px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .icon-menu-mob {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-menu-mob {
+    margin: 15px 10px;
+  }
+}

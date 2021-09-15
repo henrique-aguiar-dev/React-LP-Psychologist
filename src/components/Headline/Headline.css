@@ -1,0 +1,25 @@
+section.headline {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(137, 143, 201) 30%,
+    rgb(75, 80, 156) 70%
+  );
+}
+
+.logo-headline {
+  max-width: 540px;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("../../media/logopsicbg.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 925px) {
+	.logo-headline {
+    background-size: 80%;
+  }
+}

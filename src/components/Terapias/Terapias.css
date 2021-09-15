@@ -1,0 +1,77 @@
+section.terapias {
+  width: 100%;
+  background-image: url("../../media/bgmental.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.box-terapias {
+  width: 100%;
+  display: inline-flex;
+}
+
+.terapia-single {
+  width: 33.3%;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.terapia-single p {
+	text-align: left;
+}
+
+.terapia-single:hover {
+  transform: scale(1.2);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.terapia-single p {
+  line-height: 20px;
+}
+
+.terapia-single button,
+.vr button,
+#send {
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  outline: none;
+  background: rgb(108, 112, 158);
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0;
+}
+
+.terapia-single button:hover,
+.vr button:hover,
+#send:hover {
+  background: rgb(75, 80, 156);
+}
+
+@media (max-width: 1000px) {
+	.box-terapias {
+    display: inline-block;
+  }
+
+  .terapia-single {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+	.terapia-single:hover {
+		transform: scale(1.1);
+		background: rgba(0, 0, 0, 0.3);
+	}
+}
+

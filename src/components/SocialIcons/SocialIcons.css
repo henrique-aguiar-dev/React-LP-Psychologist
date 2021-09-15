@@ -1,0 +1,25 @@
+.sm-icons-header {
+  display: inline-flex;
+}
+
+.sm-icons-header i {
+  color: white;
+  font-size: 20px;
+  padding: 17px 10px;
+}
+
+.sm-icons-footer {
+  display: inline-flex;
+}
+
+.sm-icons-footer i {
+  color: white;
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+@media (max-width: 480px) {
+	.sm-icons-header i {
+		padding: 17px 7px;
+	}
+}
