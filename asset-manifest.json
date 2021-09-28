@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-LP-Psychologist/static/css/main.ff517f5f.chunk.css",
+    "main.css": "/React-LP-Psychologist/static/css/main.4b51c559.chunk.css",
     "main.js": "/React-LP-Psychologist/static/js/main.0a11c026.chunk.js",
     "main.js.map": "/React-LP-Psychologist/static/js/main.0a11c026.chunk.js.map",
     "runtime-main.js": "/React-LP-Psychologist/static/js/runtime-main.fa435d3d.js",
@@ -8,7 +8,7 @@
     "static/js/2.cd17d62c.chunk.js": "/React-LP-Psychologist/static/js/2.cd17d62c.chunk.js",
     "static/js/2.cd17d62c.chunk.js.map": "/React-LP-Psychologist/static/js/2.cd17d62c.chunk.js.map",
     "index.html": "/React-LP-Psychologist/index.html",
-    "static/css/main.ff517f5f.chunk.css.map": "/React-LP-Psychologist/static/css/main.ff517f5f.chunk.css.map",
+    "static/css/main.4b51c559.chunk.css.map": "/React-LP-Psychologist/static/css/main.4b51c559.chunk.css.map",
     "static/js/2.cd17d62c.chunk.js.LICENSE.txt": "/React-LP-Psychologist/static/js/2.cd17d62c.chunk.js.LICENSE.txt",
     "static/media/GlobalFonts.css": "/React-LP-Psychologist/static/media/DancingScript-VariableFont_wght.d618761a.ttf",
     "static/media/Contato.css": "/React-LP-Psychologist/static/media/bgcontato.1e3b12c9.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa435d3d.js",
     "static/js/2.cd17d62c.chunk.js",
-    "static/css/main.ff517f5f.chunk.css",
+    "static/css/main.4b51c559.chunk.css",
     "static/js/main.0a11c026.chunk.js"
   ]
 }
