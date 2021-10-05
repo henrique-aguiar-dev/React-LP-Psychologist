@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import './Menu.css';
 
-const Menu = (props) => {
+const Menu = forwardRef((props, ref) => {
 	return (
-		<nav className={props.className}>
+		<nav ref={ref} className={props.className}>
 			<ul>
 				<li><a href="#anchor-sobre">A Psicóloga</a></li>
 				<li><a href="#anchor-terapias">Psicoterapias</a></li>
@@ -13,6 +13,6 @@ const Menu = (props) => {
 			</ul>
 		</nav>
 	)
-}
+});
 
 export default Menu;
