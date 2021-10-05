@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-LP-Psychologist/static/css/main.4b51c559.chunk.css",
-    "main.js": "/React-LP-Psychologist/static/js/main.0a11c026.chunk.js",
-    "main.js.map": "/React-LP-Psychologist/static/js/main.0a11c026.chunk.js.map",
+    "main.js": "/React-LP-Psychologist/static/js/main.8a996d62.chunk.js",
+    "main.js.map": "/React-LP-Psychologist/static/js/main.8a996d62.chunk.js.map",
     "runtime-main.js": "/React-LP-Psychologist/static/js/runtime-main.fa435d3d.js",
     "runtime-main.js.map": "/React-LP-Psychologist/static/js/runtime-main.fa435d3d.js.map",
     "static/js/2.cd17d62c.chunk.js": "/React-LP-Psychologist/static/js/2.cd17d62c.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.fa435d3d.js",
     "static/js/2.cd17d62c.chunk.js",
     "static/css/main.4b51c559.chunk.css",
-    "static/js/main.0a11c026.chunk.js"
+    "static/js/main.8a996d62.chunk.js"
   ]
 }
